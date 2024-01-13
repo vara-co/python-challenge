@@ -109,7 +109,7 @@ with open(output_path, "w") as textfile:
     #Inicialize the txt.writer functointo write the variable we created, with a comma delimeter
     csvwriter = csv.writer(textfile)
 
-    #csvwriter.writerow(print_financialAnalysis(totalMonths, total, averageChange, greatestInc, greatestDec))
+    
     csvwriter.writerow(["Financial Analysis"])
     csvwriter.writerow(["----------------------------"])
     csvwriter.writerow([f"Total Months: {totalMonths}"])
@@ -118,4 +118,3 @@ with open(output_path, "w") as textfile:
     csvwriter.writerow([f"Greatest Increase in Profits: {greatestInc['date']} (${greatestInc['amount']})"])
     csvwriter.writerow([f"Greatest Decrease in Profits: {greatestDec['date']} (${greatestDec['amount']})"])
 
-print(f"Results exported to {output_path}")

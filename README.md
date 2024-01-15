@@ -7,6 +7,12 @@ PYTHON CHALLENGE
 --------------------------------
 by Laura Vara
 --------------------------------
+Note: It is important that if you are going to use this code, the csv files
+are placed in a directory called Resources, in the same directory as your
+main python file. Otherwise the code with the path were you intend to read 
+your csv file, needs to be updated to where the new path is located for the
+csv file. This applies for both PyBank and PyPoll. Ideally they will be set
+in the same way they are found in this repository.
 
 This repository consists of two challenges:
 1. PyBank
